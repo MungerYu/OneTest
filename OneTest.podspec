@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
     s.static_framework  =  true
     # 链接设置 重要
     s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
+    s.swift_versions = ['4.2', '5.0']
     # 第三方非开源framework(多个)
     #    s.vendored_frameworks = [
     #    'SOCRLib/Classes/framework/IDLFaceSDK.framework',
